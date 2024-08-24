@@ -27,8 +27,8 @@ const App = () => {
 
 const ManyActions = ({ adapter }: { adapter: ActionAdapter }) => {
   const apiUrls = useMemo(() => ([
-    'http://localhost:3000/api/actions/donate-sol', // Your localhost link
-    'https://mynextblink.vercel.app/api/actions/donate-sol'
+    // 'http://localhost:3000/api/actions/donate-sol', // Your localhost link
+    'https://mynextblink.vercel.app/api/actions/donate-sol',
   ]), []);
   const [actions, setActions] = useState<Action[]>([]);
     
